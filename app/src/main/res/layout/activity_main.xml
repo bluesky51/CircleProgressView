@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sky.circleprogress.circleprogressview.MainActivity">
+
+    <com.sky.circleprogress.circleprogressview.CircleProgressView
+        android:id="@+id/circleProgressView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="100dp"
+        app:circleInnerPaintColor="@android:color/holo_blue_light"
+        app:progressTextSize="50dp"
+        app:paintWidth="20dp"
+        app:circleOuterPaintColor="@android:color/holo_green_light"
+        app:progressTextColor="@android:color/holo_red_light"
+        app:progressPaintColor="@android:color/holo_orange_light"
+        app:circleRadius="150dp"
+        />
+</RelativeLayout>
